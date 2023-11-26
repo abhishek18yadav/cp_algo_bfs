@@ -4,8 +4,8 @@
 #include<unordered_set>
 #include<list>
 using namespace std;
-int v;
 vector<list<int>>gp;
+int v;
 vector<int>da(v,0);
 vector<int>db(v,0);
 void add_edge(int src, int dst , bool bi_dir=true){
@@ -88,7 +88,7 @@ int main(){
         cin>>s>>d;
         add_edge(s,d,true);
     }
-    display();
+    // display();
     cout<<"enter pair"<<endl;
     int x,y;
     cin>>x>>y;
